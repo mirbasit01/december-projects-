@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo web page</title>
+    <style>
+      body {
+        margin: 0;  
+        background: rgb(0, 0, 0);
+        /*
+        background-color: rgb(54, 135, 107);
+        /* background-color: aqua; */
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        background: linear-gradient(115deg, #131407 20%, #000000 80%);
+
+        /*
+        background-color: rgb(5, 31, 22);*/
+      }
+      
+      .left {
+        font-size: 1.5rem;
+        color: rgb(250, 248, 248);
+        padding-right: 430px;
+        font-family: 'Pacifico', cursive;
+
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+        font-family: 'Pacifico', cursive;
+             }
+
+      nav ul li a:hover {
+        color: wheat;
+        font-size: 1.01rem;
+      } 
+      
+ /* NAV END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /*ya img wala ha */
+
+      .main {
+        padding-top: 50px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        cursor: pointer;
+        gap: 80px;
+        
+      
+      }
+
+      .textt{
+        color: white;
+        font-size: 33px;
+        font-family: 'Shadows Into Light', cursive;  
+          }
+      /*  button */
+       
+       button{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                cursor: pointer;
+                font-size: 22px;
+                font-family:  'Preahvihear', sans-serif;
+                color: gray;
+                background-color:  black;
+
+       }
+        button:hover{
+          font-size: 1.01rem;
+
+        }
+       
+       
+
+        /*footer start*/
+         footer{
+          height: 200px;
+          background: linear-gradient(115deg, #131407 20%, #000000 80%);
+          justify-content: center;
+          text-align: center;
+          display: flex;
+        }
+        .footers{
+           padding-top: 40px;
+          font-size: 30px;
+          font-weight: bold;
+          color: #000000;
+        }
+        .aretagfb{
+           text-decoration: none;
+           color: black;
+           background: linear-gradient(115deg, #4267B2 10%, #4267B2 90%);
+           font-family: 'Pacifico', cursive;
+
+
+
+
+
+        }
+        .aretagis{
+          text-decoration: none;
+           color:black;
+           background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+           font-family: 'Pacifico', cursive;
+           
+
+
+          
+        }
+        .aretagld{
+          text-decoration: none;
+           color: black;
+           background: linear-gradient(115deg, #0077B5 10%,#0077B5  90%);
+           font-family: 'Pacifico', cursive;
+
+
+        }  
+                /*footer end*/
+
+          .footer-right{
+            color: aliceblue;
+            font-size: 16px;
+            padding-top: 102px;
+            
+          }
+                
+
+                 
+
+    </style>
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <header>
+      <nav>
+        <!--
+        <div class="left"> Hadi Architecture </div> -->
+
+        <div class="left">Had Photosen</div>
+        <div class="right">
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="gallery.html">GALLERY </a></li>
+            <!--
+<li><a href="service.html">SERVICE </a></li> -->
+            <li><a href="contect.html">CONTACT</a></li>
+ 
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--nav bar end -->
+
+     <!--1 div 3 imges-->
+    <div class="main">
+      <div class="imgrap1">
+        <img src="Nature-img/Nature10.jpg" alt="" width="333px"   height="414" />
+        <div class="textt">
+          Nature
+        </div>
+        <a class="btn"  href="Nature.html" > <button>More Photos</button></a>
+      </div>
+
+      <div class="imgrap2">
+        <img src="Portrait-img/Portrait120.jpg" alt="" width="333px" height="414"  />
+        <div class="textt">
+          Portrait
+        </div>
+        <a class="btn"  href="Portrait.html"> <button>More Photos</button></a>
+      </div>
+
+      <div class="imgrap3">
+        <img src="Adventure.img/Adventure11.jpg" alt="" width="333px"  height="414"  />
+        <div class="textt">
+          Adventure
+        </div>
+        <a class="btn"  href="adventure.html"> <button>More Photos</button></a>
+      </div>
+    </div>
+
+
+
+
+    <!--2 div 3 imges-->
+    <div class="main">
+      <div class="imgrap1">
+        <img src="architecture-img/archit120.jpg" alt="" width="333px"   height="414" />
+        <div class="textt">
+          Architecture
+        </div>
+        <a class="btn"  href="Architecture.html" > <button>More Photos</button></a>
+      </div>
+      <div class="imgrap2">
+        <img src="animals-img/animals01.jpg" alt="" width="333px" height="414"  />
+        <div class="textt">
+          Animals
+        </div>
+        <a class="btn"  href="Animals.html"> <button>More Photos</button></a>
+      </div>
+
+      <div class="imgrap3">
+        <img src="sports-img/sports01.jpg" alt="" width="333px"  height="414"  />
+        <div class="textt">
+          Sports
+        </div>
+        <a class="btn"  href="Sports.html"> <button>More Photos</button></a>
+      </div>
+    </div>
+
+
+
+    <!--3 div 3 imges-->
+    <div class="main">
+      <div class="imgrap1">
+        <img src="car-img/car01.jpg" alt="" width="333px"   height="414" />
+        <div class="textt">
+          Cars
+        </div>
+        <a class="btn"  href="cars.html" > <button>More Photos</button></a>
+      </div>
+      <div class="imgrap2">
+        <img src="boys-img/boys01.jpg" alt="" width="333px" height="414"  />
+        <div class="textt">
+          Boys
+        </div>
+        <a class="btn"  href="boys.html"> <button>More Photos</button></a>
+      </div>
+
+      <div class="imgrap3">
+        <img src="bike-img/bike120.jpg" alt="" width="333px"  height="414"  />
+        <div class="textt">
+            Bike
+        </div>
+        <a class="btn"  href="bike.html"> <button>More Photos</button></a>
+      </div>
+    </div>
+
+    
+      <!--
+      <div class="imgrap3">
+        <img src="pro3.jpg" alt="" width="250px"  height="350px" />
+        <a class="btn"  href="sky.html"> <button>More Photos</button></a>
+      </div>  -->
+    
+    <!--yaha tek end ha -->
+
+
+ 
+
+
+
+    
+     <!--2 div 4imges-->
+     <!--
+     <div class="main">
+        <div class="imgrap1">
+          <img src="pro1 - Copy.jpg" alt="" width="250px" />
+          <a href="" class="btn"> <button>More Photos</button></a>
+        </div>
+        <div class="imgrap2">
+          <img src="pro17.jpg" alt="" width="250px" />
+          <a href=""> <button>More Photos</button></a>
+        </div>
+  
+        <div class="imgrap3">
+          <img src="pro2 - Copy.jpg" alt="" width="250px" />
+          <a href=""> <button>More Photos</button></a>
+        </div>
+  
+        <div class="imgrap3">
+          <img src="pro3.jpg" alt="" width="250px" />
+          <a href=""> <button>More Photos</button></a>
+        </div>
+      </div> -->
+      <!--yaha tek end ha -->
+
+      
+     <!--3 div 4imges-->
+     <!--
+    <div class="main">
+        <div class="imgrap1">
+          <img src="pro1 - Copy.jpg" alt="" width="250px" />
+          <a href="" class="btn"> <button>More Photos</button></a>
+        </div>
+        <div class="imgrap2">
+          <img src="pro17.jpg" alt="" width="250px" />
+          <a href=""> <button>More Photos</button></a>
+        </div>
+  
+        <div class="imgrap3">
+          <img src="pro2 - Copy.jpg" alt="" width="250px" />
+          <a href=""> <button>More Photos</button></a>
+        </div>
+  
+        <div class="imgrap3">
+          <img src="pro3.jpg" alt="" width="250px" />
+          <a href=""> <button>More Photos</button></a>
+        </div>
+      </div> -->
+      <!--yaha tek end ha -->
+
+      
+     <!--4 div 4imges-->
+     <!--
+    <div class="main">
+        <div class="imgrap1">
+          <img src="pro1 - Copy.jpg" alt="" width="250px" />
+          <a href="" class="btn"> <button>More Photos</button></a>
+        </div>
+        <div class="imgrap2">
+          <img src="pro17.jpg" alt="" width="250px" />
+          <a href=""> <button>More Photos</button></a>
+        </div>
+  
+        <div class="imgrap3">
+          <img src="pro2 - Copy.jpg" alt="" width="250px" />
+          <a href=""> <button>More Photos</button></a>
+        </div>
+  
+        <div class="imgrap3">
+          <img src="pro3.jpg" alt="" width="250px" />
+          <a href=""> <button>More Photos</button></a>
+        </div>
+      </div> -->
+      <!--yaha tek end ha -->
+
+      <br><br><br>
+
+
+     <!--footer start-->
+     <footer>
+        <div class="footers">
+          <a class="aretagfb"  href="facebook.com"> | facebook |</a>
+          <a class="aretagis"  href="facebook.com"> |instagram |</a>
+          <a class="aretagld"  href="facebook.com"> |linkdin | </a>
+
+           
+          <div class="footer-right">
+            Copyright &#169; www.abdulbasit01.com | All rights reserved
+          </div>
+        </footer>
+       </footer>
+
+            <!--footer end-->
+
+
+
+
+
+  </body>
+</html>
